@@ -1,0 +1,24 @@
+{
+  "name": "the-iron-yard-hw-memory-game",
+  "version": "1.0.0",
+  "description": "playing memory game with work-flow automation",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"use strict\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhackelman/the-iron-yard-hw-memory-game.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Drew Hackelman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhackelman/the-iron-yard-hw-memory-game/issues"
+  },
+  "homepage": "https://github.com/dhackelman/the-iron-yard-hw-memory-game#readme"
+}
