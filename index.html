@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Memory Game</title>
         <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
-        <link rel="stylesheet" href="./src/styles/main.css">
+        <link rel="stylesheet" href="./lib/styles/main.css">
     </head>
     <body>
       <header class="welcome">
@@ -13,8 +13,8 @@
       <section class="meta-game">
         <button class="start-game-button">Start Game</button>
         <div class="time-and-score">
-          <div><p>Time Elapsed:<span class="time"></span></p></div>
-          <div class="score">Score:_/16</div>
+          <div class="time"><p>Time Elapsed:<span class="add-time"></span></p></div>
+          <div class="score">Score:<span class='count-score'></span>/16</div>
         </div>
         <div class="match-or-no"></div>
       </section>
@@ -29,8 +29,8 @@
             </div>
         </script>
         <script src="lib/js/vendor/jquery-3.1.1.min.js"></script>
-        <script src="lib/js/vendor/moment.js"></script>
+        <!-- <script src="lib/js/vendor/moment.js"></script> -->
         <script src="lib/js/vendor/handlebars-v4.0.5.js"></script>
-        <script src="src/js/main.js"></script>
+        <script src="lib/js/main.js"></script>
     </body>
 </html>

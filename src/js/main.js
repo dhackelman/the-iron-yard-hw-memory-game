@@ -51,7 +51,9 @@
     }
 
     function placeCheckMark() {
+      let counter = ($('.card.check').length)/2;
       $('.card.check .card-id.hide').html('<img src="https://www.ifonly.com/images/io/icon_checkmark_green.png">');
+      $('.count-score').html(counter);
     }
 
     function clickCard() {
@@ -125,7 +127,7 @@
   memoryGameApp.init();
 
   function showTime() {
-    const timeBox = document.querySelector('.time');
+    const timeBox = document.querySelector('.add-time');
     let time = new Date();
     let newTime = time.toLocaleTimeString();
     timeBox.innerHTML = newTime;
