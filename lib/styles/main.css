@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Barrio");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,8 +53,25 @@ img {
   box-sizing: border-box; }
 
 .header {
-  text-align: center;
   width: 100%; }
+
+main {
+  margin: 0 auto; }
+
+.match-or-no {
+  font-size: 2rem;
+  height: 50px;
+  padding-top: 25px; }
+
+.welcome {
+  background-color: green; }
+  .welcome h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 100%; }
 
 .meta-game {
   align-items: center;
@@ -61,17 +79,59 @@ img {
   color: white;
   display: flex;
   flex-direction: column;
-  width: 90%; }
+  margin: 10px auto;
+  padding: 10px;
+  width: 800px; }
+  .meta-game .start-game-button {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 10px auto;
+    font-family: "Barrio", cursive;
+    font-size: 1.5rem; }
+
+.time-and-score {
+  overflow: hidden;
+  width: 100%; }
+  .time-and-score .time, .time-and-score .score {
+    font-family: "Barrio", cursive;
+    font-size: 2rem; }
+  .time-and-score .time {
+    float: left; }
+  .time-and-score .score {
+    float: right; }
 
 .card-container {
   background-color: blue;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 20px;
   height: 500px;
-  width: 100%; }
+  width: 800px; }
 
 .card {
-  background-color: red;
-  height: 100px;
-  margin: 20px;
-  width: 100px; }
+  border-radius: 50%;
+  height: 80px;
+  margin: 5px;
+  text-align: center;
+  width: 80px; }
+  .card .card-image, .card .card-id {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%; }
+  .card .card-id {
+    background-color: red; }
+    .card .card-id p {
+      text-align: center;
+      vertical-align: bottom; }
+
+.card .hide {
+  display: none; }
+
+body {
+  background-color: green;
+  font-family: "Barrio", cursive; }
+  body .hide {
+    display: none; }

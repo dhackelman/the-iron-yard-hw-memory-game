@@ -51,7 +51,7 @@
     }
 
     function placeCheckMark() {
-      $('.card.check.card-id.hide').html('<img src="https://www.ifonly.com/images/io/icon_checkmark_green.png">');
+      $('.card.check .card-id.hide').html('<img src="https://www.ifonly.com/images/io/icon_checkmark_green.png">');
     }
 
     function clickCard() {
@@ -81,7 +81,7 @@
 
     function fixNonMatches(){
       // $('.card ').toggleClass('check');
-      $('.card-id.hide').removeClass('hide');
+      $('.card:not(check) .card-id.hide').removeClass('hide');
       $('.card-image:not(hide)').addClass('hide');
     }
 

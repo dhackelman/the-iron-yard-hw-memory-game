@@ -16,6 +16,9 @@ gulp.task('js', function() {
   gulp.src('./src/js/vendor/*.js')
   .pipe(uglify())
   .pipe(gulp.dest('./lib/js/vendor'));
+  gulp.src('./src/js/*.js')
+  .pipe(uglify())
+  .pipe(gulp.dest('./lib/js'));
 });
 
 
