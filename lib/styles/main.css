@@ -102,7 +102,7 @@ main {
     float: right; }
 
 .card-container {
-  background-color: #fff;
+  background-color: #000;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

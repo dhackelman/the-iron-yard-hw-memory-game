@@ -51,9 +51,9 @@
     }
 
     function placeCheckMark() {
-      let counter = ($('.card.check').length)/2;
+      let counter = 0;
       $('.card.check .card-id.hide').html('<img src="https://www.ifonly.com/images/io/icon_checkmark_green.png">');
-      $('.count-score').html(counter);
+      $('.count-score').html((counter+2));
     }
 
     function clickCard() {
