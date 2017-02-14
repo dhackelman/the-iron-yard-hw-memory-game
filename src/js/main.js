@@ -9,9 +9,9 @@
     let randomizedArray = [];
 
     class MemoryCards {
-      constructor(arg) {
-          // this.image = cardId.url;
-          this.id = arg;
+      constructor(arg1, arg2) {
+          this.image = arg2,
+          this.id = arg1;
           this.build();
       }
 
@@ -34,8 +34,8 @@
 
     function buildCardSet() {
       for (let index = 0; index <= 15; index++) {
-          cardArray.push(new MemoryCards(`${index+1}`));
-          cardArray.push(new MemoryCards(`${index+1}`));
+          cardArray.push(new MemoryCards(`${index+1}`, `${index}`));
+          cardArray.push(new MemoryCards(`${index+1}`, `${index}`));
         }
     }
 
@@ -45,13 +45,13 @@
         setTimeout(placeCheckMark, 900);
       } else {
         $('.match-or-no').html('Not a match! Try again!');
-        $('.card').toggleClass('check');
+        // $('.card').toggleClass('check');
         setTimeout(fixNonMatches, 2500);
       }
     }
 
     function placeCheckMark() {
-      $('.card.check').html('<img src="https://www.ifonly.com/images/io/icon_checkmark_green.png">');
+      $('.card.check.card-id.hide').html('<img src="https://www.ifonly.com/images/io/icon_checkmark_green.png">');
     }
 
     function clickCard() {
@@ -80,6 +80,7 @@
     }
 
     function fixNonMatches(){
+      // $('.card ').toggleClass('check');
       $('.card-id.hide').removeClass('hide');
       $('.card-image:not(hide)').addClass('hide');
     }
