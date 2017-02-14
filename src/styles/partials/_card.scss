@@ -1,0 +1,25 @@
+.card {
+  border-radius: 50%;
+  height: 80px;
+  margin: 5px;
+  text-align: center;
+  width: 80px;
+
+
+  .card-image, .card-id {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card-id {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+      text-align: center;
+    }
+  }
+}

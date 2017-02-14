@@ -1,0 +1,40 @@
+.meta-game {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 10px;
+  width: 800px;
+
+  .start-game-button {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 10px auto;
+    font-family: $primaryFont;
+    font-size: 1.5rem;
+
+  }
+
+}
+
+
+.time-and-score {
+  overflow: hidden;
+  width: 100%;
+
+  .time, .score {
+    font-family: $primaryFont;
+    font-size: 2rem;
+  }
+
+  .time {
+    float: left;
+  }
+
+  .score {
+    float: right;
+  }
+}

@@ -1,3 +1,17 @@
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/layout";
+@import "partials/welcome";
+@import "partials/meta";
+@import "partials/card-container";
+@import "partials/card";
+
 body {
-  color: blue;
+  background-color: green;
+  font-family: $primaryFont;
+
+  .hide {
+    display: none;
+  }
+
 }
