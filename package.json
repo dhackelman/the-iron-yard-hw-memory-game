@@ -4,7 +4,12 @@
   "description": "playing memory game with work-flow automation",
   "main": "gulpfile.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "^4.3.11",
+    "moment": "^2.17.1"
+  },
   "scripts": {
     "test": "\"use strict\""
   },

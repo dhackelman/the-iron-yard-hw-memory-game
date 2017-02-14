@@ -5,7 +5,6 @@
   text-align: center;
   width: 80px;
 
-
   .card-image, .card-id {
     border-radius: 50%;
     height: 100%;
@@ -14,12 +13,10 @@
 
   .card-id {
     background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-    div {
+    p {
       text-align: center;
+      vertical-align: bottom;
     }
   }
 }

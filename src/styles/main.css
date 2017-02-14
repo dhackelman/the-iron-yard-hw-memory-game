@@ -117,17 +117,13 @@ main {
     height: 100%;
     width: 100%; }
   .card .card-id {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .card .card-id div {
-      text-align: center; }
+    background-color: red; }
+    .card .card-id p {
+      text-align: center;
+      vertical-align: bottom; }
 
 body {
   background-color: green;
   font-family: "Barrio", cursive; }
-  body .hide {
-    display: none; }
 
 /*# sourceMappingURL=main.css.map */
