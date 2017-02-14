@@ -13,9 +13,10 @@
       <section class="meta-game">
         <button class="start-game-button">Start Game</button>
         <div class="time-and-score">
-          <div class="time"> Time Elapsed: </div>
+          <div><p>Time Elapsed:<span class="time"></span></p></div>
           <div class="score">Score:_/16</div>
         </div>
+        <div class="match-or-no"></div>
       </section>
       <main class="card-container hide">
       </main>
@@ -23,7 +24,7 @@
       </footer>
         <script id="card-template" type="text/x-handlebars-template">
             <div class="card" data-id={{id}}>
-              <div class="card-image hide" style="background-image: url(http://www.fillmurray.com/100/100)"></div>
+              <div class="card-image hide" style="background-image:{{image}}"></div>
               <div class="card-id">{{id}}</div>
             </div>
         </script>
