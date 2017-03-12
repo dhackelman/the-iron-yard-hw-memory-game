@@ -3,6 +3,8 @@
 
 Play the game on a site hosted on G-H Pages: https://dhackelman.github.io/the-iron-yard-hw-memory-game/
 
+(I have the html labels shown to make it easy to test...)
+
 ### Tech Stack: 
 ![alt tag](https://uploads.toptal.io/blog/category/logo/33/html5.png "HTML5")
 ![alt tag](http://www.010pixel.com/wp-content/uploads/2012/12/CSS3_Logo.png "CSS3")
