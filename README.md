@@ -13,5 +13,6 @@ Play the game on a site hosted on G-H Pages: https://dhackelman.github.io/the-ir
 ![alt tag](https://cloudinary-a.akamaihd.net/bountysource/image/upload/d_noaoqqwxegvmulwus0un.png,c_pad,w_200,h_200,b_white/xi5anfbya76qvghcbxzp.png "NPM")
 ![alt tag](https://cloudinary-a.akamaihd.net/bountysource/image/upload/d_noaoqqwxegvmulwus0un.png,c_pad,w_200,h_200,b_white/daziwekjz74kbdogkvxd.png "Handlebars")
 ![alt tag](http://majweb.pl/images/post/jqueryn.png "jQuery")
+![alt tag](https://www.ostraining.com/cdn/images/logo/git-logo.png "Git via terminal")
 
 
